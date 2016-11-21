@@ -10,11 +10,11 @@ class App extends Component {
 
   componentWillMount() {
     var config = {
-    apiKey: "AIzaSyCkxPRCboVlk-FQcWAHAlNhYElOXlEXgUA",
-    authDomain: "manager-45457.firebaseapp.com",
-    databaseURL: "https://manager-45457.firebaseio.com",
-    storageBucket: "manager-45457.appspot.com",
-    messagingSenderId: "872799032531"
+    apiKey: 'AIzaSyCkxPRCboVlk-FQcWAHAlNhYElOXlEXgUA',
+    authDomain: 'manager-45457.firebaseapp.com',
+    databaseURL: 'https://manager-45457.firebaseio.com',
+    storageBucket: 'manager-45457.appspot.com',
+    messagingSenderId: '872799032531'
   };
   firebase.initializeApp(config);
   }
